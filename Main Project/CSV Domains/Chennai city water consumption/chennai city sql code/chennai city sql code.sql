@@ -3,12 +3,12 @@ DROP TABLE  water_chennai_analytics;
 
 CREATE TABLE water_chennai_analytics (
 
-id INT AUTO_INCREMENT PRIMARY KEY,
+Id INT AUTO_INCREMENT PRIMARY KEY,
 
-data_date DATE,
-system_entry_time DATETIME,
+Data_date DATE,
+System_entry_time DATETIME,
 
-division_no INT,
+Division_no INT,
 zone_no VARCHAR(10),
 
 division_office_address VARCHAR(255),

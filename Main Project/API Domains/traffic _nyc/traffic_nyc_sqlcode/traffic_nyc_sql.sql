@@ -4,12 +4,12 @@ DROP TABLE IF EXISTS traffic_nyc_final_api;
 
 CREATE TABLE traffic_nyc_final_api (
 
-id INT AUTO_INCREMENT PRIMARY KEY,
+Id INT AUTO_INCREMENT PRIMARY KEY,
 
 area VARCHAR(50),
 
-latitude FLOAT,
-longitude FLOAT,
+Latitude FLOAT,
+Longitude FLOAT,
 
 date DATE,
 time TIME,
@@ -47,7 +47,7 @@ WHERE TIMESTAMP(date, time) >= NOW() - INTERVAL 1 HOUR;
 select * from traffic_nyc_final_api;
 
 
-DROP VIEW IF EXISTS traffic_live;
+
 CREATE VIEW traffic_live AS
 SELECT *
 FROM traffic_nyc_final_api

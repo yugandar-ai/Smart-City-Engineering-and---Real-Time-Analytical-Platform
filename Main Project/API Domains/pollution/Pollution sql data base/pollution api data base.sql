@@ -1,9 +1,9 @@
 drop table pollution_delhi;
 use smart_city;
 CREATE TABLE pollution_delhi (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    date_only DATE,
-    time_only TIME,
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Date_only DATE,
+    Time_only TIME,
     pm25 FLOAT,
     pm10 FLOAT,
     carbon_monoxide FLOAT,

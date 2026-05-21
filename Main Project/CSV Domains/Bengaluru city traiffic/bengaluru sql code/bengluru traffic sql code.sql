@@ -4,17 +4,17 @@ USE smart_city;
 
 CREATE TABLE traffic_bengaluru_csv (
 
-id INT AUTO_INCREMENT PRIMARY KEY,
+Id INT AUTO_INCREMENT PRIMARY KEY,
 
 date DATE,
 time TIME,
 
-area_name VARCHAR(100),
+Area_name VARCHAR(100),
 zone VARCHAR(50),
 road_name VARCHAR(200),
 
-latitude FLOAT,
-longitude FLOAT,
+Latitude FLOAT,
+Longitude FLOAT,
 
 traffic_volume INT,
 average_speed FLOAT,

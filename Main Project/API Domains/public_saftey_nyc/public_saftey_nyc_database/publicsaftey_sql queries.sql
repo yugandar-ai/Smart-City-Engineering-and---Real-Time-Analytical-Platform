@@ -6,16 +6,16 @@ USE smart_city;
 
 
 CREATE TABLE public_safety_nyc (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    Id INT AUTO_INCREMENT PRIMARY KEY,
 
-    complaint_id BIGINT,
-    complaint_date DATE,
-    complaint_time TIME,
+    Complaint_id BIGINT,
+    Complaint_date DATE,
+    Complaint_time TIME,
 
-    crime_type VARCHAR(100),
-    crime_category VARCHAR(100),
+    Crime_type VARCHAR(100),
+    Crime_category VARCHAR(100),
 
-    description VARCHAR(255),
+    Description VARCHAR(255),
 
     borough VARCHAR(50),
     incident_address VARCHAR(255),
